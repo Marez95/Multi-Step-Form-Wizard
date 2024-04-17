@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   width: 100%;
-  max-width: 300px; /* Adjust as needed */
+  max-width: 300px;
   margin: 50px auto 0;
   padding: 20px;
   border-radius: 8px;
@@ -69,15 +69,6 @@ body {
   align-items: center;
   margin-right: 90px;
 }
-
-/* .thirdstepbuttons {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 10px 40px;
-  align-items: center;
-  margin-right: 90px;
-} */
 
 .review {
   color: whitesmoke;

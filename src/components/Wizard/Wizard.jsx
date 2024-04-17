@@ -32,7 +32,7 @@ const Wizard = () => {
         lastName: true,
         email: true,
       });
-      return; // Do not proceed if any required field in step 1 is empty
+      return;
     }
     if (
       step === 2 &&
@@ -47,7 +47,7 @@ const Wizard = () => {
         state: true,
         zipCode: true,
       });
-      return; // Do not proceed if any required field in step 2 is empty
+      return;
     }
     if (step === 3) {
       setSubmittedData(values);
@@ -124,7 +124,7 @@ const Wizard = () => {
                   email: true,
                 });
               } else {
-                setStep(2); // Proceed to the next step
+                setStep(2);
               }
             } else if (step === 3) {
               setSubmittedData(values);
@@ -143,7 +143,7 @@ const Wizard = () => {
           handleSubmit,
           isSubmitting,
           setTouched,
-          /* and other goodies */
+
         }) => (
           <>
             <div className="inputs">
